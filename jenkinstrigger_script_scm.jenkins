@@ -4,7 +4,7 @@ pipeline{
         stage("Build")
         {
             step{
-                sh 'echo "Bulid Completed."'
+                sh 'echo "Build Completed."'
             }
         }
     }
